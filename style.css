@@ -214,3 +214,29 @@ body {
 .shown {
   display: inline-block;
 }
+
+.light-theme .up-button {
+  color: #6653d9;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: #6653d9;
+  outline-color: #b6aaff;
+}
+
+.light-theme .up-button:hover {
+  color: #473c8d;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: #473c8d;
+}
+
+.dark-theme .up-button {
+  color: #9484f2;
+  background-color: rgba(10, 9, 16, 0.6);
+  border-color: #9484f2;
+  outline-color: #6653d9;
+}
+
+.dark-theme .up-button:hover {
+  color: #6653d9;
+  background-color: rgba(10, 9, 16, 0.6);
+  border-color: #6653d9;
+}
