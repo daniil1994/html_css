@@ -3,15 +3,11 @@ let upButton = document.querySelector('.up-button')
 window.onscroll = function (){
     if (window.pageYOffset > 200) {
         upButton.classList.add('.show')
-    } else (window.pageYOffset < 200)
-    {
-        upButton.classList.remove('.show')
-    }
-
+    } else {upButton.classList.remove('.show')};   
 }
 
 // обработчик клика
 upButton.oneclick = function (){
-    window.scrollTo(0,0)
+    window.scrollTo(0,0);
 
 };
